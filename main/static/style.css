@@ -1,0 +1,161 @@
+
+body{
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.logo{
+    margin-left:50px;
+}
+.hero{
+    background-image: url("Assets/PocetnaPNG1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+.PrintPlast{
+    font-size:4vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: black!important;
+}
+.main{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    background-color: #F8F8F8;
+}
+.main h2{
+    text-align: center;
+    color: #388697;
+    margin: 50px;
+}
+.imgWrapl{
+    margin: 15px 100px 15px 300px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #60c6dd;
+}
+.imgWrapr{
+    margin: 15px 300px 15px 100px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #f7ea79;
+}
+@media (max-width: 1200px) {
+    .imgWrapl{
+        margin: 15px 300px 15px 300px;
+    }
+    .imgWrapr{
+        margin: 15px 300px 15px 300px;
+    }
+}
+.mainImg{
+    width: 50%;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  margin-bottom:50px;
+  display: block;
+}
+
+.mainTxt{
+    background-color: #388697;
+    color: white;
+    height: 35px;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+.fcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+}
+.lcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding:50px 0;
+    justify-content: center;
+}
+.gcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px 0;
+    justify-content: center;
+}
+
+
+.printer{
+    border: 3px black solid;
+    border-radius: 5px;
+    width: 550px;
+    flex-grow: 1;
+    margin:10px;
+}
+
+.publisher{
+    border: 3px black solid;
+    border-radius: 5px;
+    min-width: 450px;
+    padding:100px;
+    margin:10px;
+    font-size: 30px;
+ 
+
+    
+}
+.hcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px 0;
+    justify-content: center;
+}
+.pImage{
+    max-height: 250px;
+    max-width: 250px;
+    float: left;
+    
+}
+.pText{
+    padding: 20px;
+    float: left;
+}
+.Naslovi{
+    font-size: 60px;
+    text-align: center;
+}
+.Login{
+    margin: 0 auto;
+    border: 2px solid black;
+    height:200px;
+    width:500px;
+    display:flex;
+}
+.bg{ background-image: url("Assets/login.webp");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+ .bgr{ background-image: url("Assets/register.jpg");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
